@@ -1,16 +1,15 @@
 .header-bg {
   background: #000000;
 }
-
 .header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 20px;
   align-items: center;
 }
 .navbar {
@@ -25,21 +24,30 @@
   position: relative;
   padding: 10px 0;
 }
-.navbar a:hover::after {
+.navbar a::after {
   content: "";
-  background-color: #ffffff;
+  background: #ffffff;
   height: 2px;
   width: 100%;
   position: absolute;
-  bottom: -0px;
+  bottom: 10px;
   left: 0;
   transform: scaleX(0);
-  transform-origin: bottom right;
   transition: transform 0.25s;
 }
 .navbar a:hover::after {
   transform: scaleX(1);
-  transform-origin: bottom left;
+}
+
+@media (max-width: 800px) {
+  .navbar a::after {
+    display: none;
+  }
+  .navbar a {
+    padding: 10px 15px;
+    background: #111111;
+    border-radius: 4px;
+  }
 }
 @media (max-width: 550px) {
   .header {
