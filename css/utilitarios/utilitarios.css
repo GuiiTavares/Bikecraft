@@ -1,0 +1,15 @@
+.botao {
+  display: inline-block;
+  padding: 15px 35px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #332200;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.span {
+  color: var(--cor-p1);
+}
