@@ -1,7 +1,7 @@
 .l-depoimento {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 200px;
+  
   background-color: var(--cor-p1);
 }
 .l-depoimento img {
