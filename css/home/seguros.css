@@ -1,6 +1,6 @@
 .l-seguros-bg {
   background: var(--cor-11);
-  padding-bottom: 200px;
+  padding-bottom: 120px;
 }
 .l-seguros {
   box-sizing: border-box;
@@ -23,15 +23,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  align-items: center;
 }
+
 .card-plano1 {
   background: var(--cor-12);
   border-radius: 5px;
-  padding-left: 64px;
-  padding-right: 32px;
-  padding-top: 32px;
-  width: 400px;
-  height: 400px;
+
+  padding: 32px 32px 0 64px;
+  height: 380px;
 }
 .header-card-plano1 {
   display: flex;
@@ -67,7 +67,7 @@
 .beneficios-plano1 li {
   font-family: roboto;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 32px;
   color: var(--cor-0);
 }
@@ -89,40 +89,37 @@
   background: var(--cor-7);
 }
 
-.card-plano1 {
+.card-plano2 {
   background: var(--cor-12);
   border-radius: 5px;
-  color: wheat;
-  padding-left: 64px;
-  padding-right: 32px;
-  padding-top: 32px;
-  width: 400px;
-  height: 400px;
+
+  padding: 32px 32px 0 64px;
+  height: 450px;
 }
-.header-card-plano1 {
+.header-card-plano2 {
   display: flex;
   justify-content: space-between;
 }
-.titulo-plano1-seguros {
+.titulo-plano2-seguros {
   font-size: 2.2rem;
-  color: var(--cor-6);
+  color: var(--cor-p1);
 }
-.valor-card-plano1 {
+.valor-card-plano2 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   color: var(--cor-6);
 }
-.preco-plano1 {
+.preco-plano2 {
   font-weight: 600;
   font-size: 2.2rem;
   color: var(--cor-0);
 }
-.escrita-plano1 {
+.escrita-plano2 {
   font-size: 0.9rem;
   line-height: 0;
 }
-.beneficios-plano1 {
+.beneficios-plano2 {
   margin-top: 40px;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -130,27 +127,40 @@
   gap: 8px;
   margin-bottom: 32px;
 }
-.beneficios-plano1 li {
+.beneficios-plano2 li {
   font-family: roboto;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 32px;
   color: var(--cor-0);
 }
-.btn-plano1 {
-  margin-left: 8px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.125rem;
-  color: var(--cor-4);
-
-  background: var(--cor-10);
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  padding: 16px 32px;
+@media (max-width: 1200px) {
+  .planos-segudoros {
+    gap: 20px;
+  }
+  .card-plano1 {
+    padding-left: 32px;
+  }
+  .card-plano2 {
+    padding-left: 32px;
+  }
 }
-.btn-plano1:hover {
-  color: var(--cor-1);
-
-  background: var(--cor-7);
+@media (max-width: 800px) {
+  .planos-segudoros {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 400px) {
+  .titulo-plano1-seguros {
+    font-size: 1.8rem;
+  }
+  .preco-plano1 {
+    font-size: 1.8rem;
+  }
+  .titulo-plano2-seguros {
+    font-size: 1.8rem;
+  }
+  .preco-plano2 {
+    font-size: 1.8rem;
+  }
 }
