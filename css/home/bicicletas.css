@@ -9,9 +9,6 @@
   margin-right: auto;
   margin-bottom: 40px;
   max-width: 1200px;
-  font-weight: 600;
-  font-size: 4rem;
-  color: var(--cor-11);
 }
 .lista-bicicletas {
   display: grid;
@@ -55,9 +52,6 @@
   margin: 8px 0px 16px 0px;
 }
 @media (max-width: 1200px) {
-  .titulo-bicicletas {
-    font-size: 3.2rem;
-  }
   .l-bicicletas {
     margin: 60px 0;
   }
@@ -69,9 +63,6 @@
   }
 }
 @media (max-width: 500px) {
-  .titulo-bicicletas {
-    font-size: 3rem;
-  }
   .l-bicicletas {
     margin: 30px 0;
   }

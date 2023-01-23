@@ -1,0 +1,27 @@
+.titulo-bg1 {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 1.125;
+  color: var(--cor-0);
+}
+.titulo-bg2 {
+  font-weight: 600;
+  font-size: 4rem;
+  color: var(--cor-11);
+}
+@media (max-width: 1200px) {
+  .titulo-bg1 {
+    font-size: 3.2rem;
+  }
+  .titulo-bg2 {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 500px) {
+  .titulo-bg1 {
+    font-size: 3rem;
+  }
+  .titulo-bg2 {
+    font-size: 3rem;
+  }
+}

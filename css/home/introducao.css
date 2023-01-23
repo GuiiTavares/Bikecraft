@@ -24,10 +24,6 @@ main {
 }
 .l-introducao h1 {
   margin-bottom: 32px;
-  font-weight: 600;
-  font-size: 4rem;
-  line-height: 1.125;
-  color: var(--cor-0);
 }
 .l-introducao p {
   font-weight: 400;
@@ -38,9 +34,6 @@ main {
 }
 
 @media (max-width: 1200px) {
-  .l-introducao h1 {
-    font-size: 3.2rem;
-  }
   .l-introducao p {
     font-size: 1.3rem;
     line-height: 2.25rem;
@@ -71,9 +64,6 @@ main {
   }
 }
 @media (max-width: 500px) {
-  .l-introducao h1 {
-    font-size: 3rem;
-  }
   .l-introducao img {
     height: 250px;
   }

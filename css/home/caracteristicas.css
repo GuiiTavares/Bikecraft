@@ -27,10 +27,6 @@
 }
 .l-caracteristicas h3 {
   margin-top: 20px;
-  font-weight: 600;
-  font-size: 4rem;
-  line-height: 1.125;
-  color: var(--cor-0);
 }
 .descricao-caracteristicas {
   font-size: 1.5rem;
@@ -88,9 +84,6 @@
   .introducao-caracteristicas {
     font-size: 1.3rem;
   }
-  .l-caracteristicas h3 {
-    font-size: 3.2rem;
-  }
   .descricao-caracteristicas {
     font-size: 1.3rem;
   }
@@ -130,9 +123,6 @@
   }
   .textos-caracteristicas {
     padding-bottom: 80px;
-  }
-  .l-caracteristicas h3 {
-    font-size: 2.2rem;
   }
   .descricao-caracteristicas {
     font-size: 1.1rem;

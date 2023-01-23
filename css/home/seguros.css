@@ -13,9 +13,6 @@
 .titulo-seguros {
   padding-top: 60px;
   font-weight: 600;
-  font-size: 4rem;
-  line-height: 1.125;
-  color: var(--cor-0);
 }
 .planos-segudoros {
   margin-top: 60px;
@@ -134,6 +131,7 @@
   line-height: 32px;
   color: var(--cor-0);
 }
+
 @media (max-width: 1200px) {
   .planos-segudoros {
     gap: 20px;
