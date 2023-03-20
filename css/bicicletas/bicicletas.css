@@ -1,0 +1,159 @@
+.cards-bicicletas:nth-child(odd) {
+  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
+}
+.cards-bicicletas {
+  box-sizing: border-box;
+  max-width: 1200px;
+
+  padding: 60px 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.cards-bicicletas-imagem {
+  display: grid;
+}
+.cards-bicicletas-imagem img {
+  grid-area: 1/1;
+}
+.cards-bicicletas-imagem span {
+  background: var(--cor-12);
+  color: var(--cor-1);
+  display: inline-block;
+
+  font-family: "Roboto";
+  font-size: 1.115rem;
+
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 5px 0px 0px 5px;
+
+  grid-area: 1/1;
+  place-self: start end;
+}
+
+.textos-card-bicicletas,
+.textos-cards-odd-bicicleta {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.titulos-card-bicicletas {
+  grid-row: 2;
+  font-weight: 600;
+  font-size: 2.1rem;
+  color: var(--cor-11);
+  margin-top: 16px;
+  position: relative;
+}
+.titulos-card-bicicletas::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 5px;
+  background: var(--cor-p1);
+}
+.textos-card-bicicletas p {
+  font-family: "Roboto";
+  font-size: 1.115rem;
+  color: var(--cor-8);
+  max-width: 44ch;
+}
+.btn-listas-bicicletas {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: End;
+}
+.caracteristicas-cards-bicicletas {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px 8px;
+}
+.caracteristicas-cards-bicicletas img {
+  height: 22px;
+  width: 24px;
+}
+.caracteristicas-cards-bicicletas li {
+  font-family: "Roboto";
+  font-size: 1.115rem;
+  color: var(--cor-8);
+}
+
+.titulos-cards-odd-bicicleta {
+  grid-row: 2;
+  font-weight: 600;
+  font-size: 2.1rem;
+  color: var(--cor-1);
+  margin-top: 16px;
+  position: relative;
+}
+.titulos-cards-odd-bicicleta::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 5px;
+  background: var(--cor-p1);
+}
+.textos-cards-odd-bicicleta p {
+  font-family: "Roboto";
+  font-size: 1.115rem;
+  color: var(--cor-5);
+  max-width: 44ch;
+}
+.caracteristicas-cards-odd-bicicleta img {
+  height: 22px;
+  width: 24px;
+}
+.caracteristicas-cards-odd-bicicleta {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px 8px;
+}
+.caracteristicas-cards-odd-bicicleta li {
+  font-family: "Roboto";
+  font-size: 1.115rem;
+  color: var(--cor-5);
+}
+
+@media (max-width: 1200px) {
+  .cards-bicicletas {
+    padding: 40px 20px;
+
+    gap: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .cards-bicicletas {
+    padding: 60px 20px;
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+  .cards-bicicletas:nth-child(odd) {
+    background: var(--cor-11);
+  }
+}
+@media (max-width: 400px) {
+  .cards-bicicletas {
+    padding: 20px 20px;
+    gap: 16px;
+  }
+  .btn-listas-bicicletas {
+    grid-template-columns: auto;
+    gap: 40px;
+  }
+  .btn-listas-bicicletas a {
+    place-self: start;
+  }
+  .titulos-card-bicicletas {
+    font-size: 1.8rem;
+  }
+  .titulos-cards-odd-bicicleta {
+    font-size: 1.8rem;
+  }
+}

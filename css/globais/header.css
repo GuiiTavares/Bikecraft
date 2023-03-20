@@ -18,7 +18,7 @@
   gap: 20px;
 }
 .navbar a {
-  color: #ffffff;
+  color: var(--cor-1);
   font-size: 1.125rem;
   display: inline-block;
   position: relative;
@@ -26,7 +26,7 @@
 }
 .navbar a::after {
   content: "";
-  background: #ffffff;
+  background: var(--cor-1);
   height: 2px;
   width: 100%;
   position: absolute;
@@ -45,7 +45,7 @@
   }
   .navbar a {
     padding: 10px 15px;
-    background: #111111;
+    background: var(--cor-11);
     border-radius: 4px;
   }
 }

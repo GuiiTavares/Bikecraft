@@ -30,6 +30,9 @@
   color: var(--cor-5);
   padding: 8px 0;
 }
+.l-footer a {
+  color: var(--cor-5);
+}
 .lista-contato li:nth-child(even) {
   padding-bottom: 32px;
   position: relative;
