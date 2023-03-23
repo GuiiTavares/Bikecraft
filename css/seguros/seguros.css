@@ -195,36 +195,39 @@
   background: var(--cor-1);
   border-radius: 5px;
 }
-.cards-faq h3 {
-  color: var(--cor-11);
+.cards-faq dt {
   font-size: 1.125rem;
+  color: var(--cor-11);
+  font-style: normal;
+  font-weight: 600;
   cursor: pointer;
   display: grid;
+  gap: 8px;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 8px;
 }
-.cards-faq h3::before {
+.cards-faq dt::before {
   display: inline-block;
   content: "";
   width: 12px;
   height: 8px;
   background: var(--cor-p1);
 }
-.cards-faq h3::after {
+.cards-faq dt::after {
   content: "";
   display: inline-block;
   width: 14px;
   height: 6px;
   background-image: url(../../img/icones/seta-abrir.svg);
 }
-.cards-faq p {
+.cards-faq dd {
   margin-left: 22px;
   margin-top: 8px;
   font-family: "Roboto";
   font-size: 1.125rem;
   line-height: 24px;
 }
+
 
 @media (max-width: 1200px) {
   .planos-segudoros {
