@@ -6,6 +6,7 @@
 
 @import "/css/globais/header.css";
 @import "/css/globais/footer.css";
+@import "/css/globais/forms.css";
 
 @import "/css/home/introducao.css";
 @import "/css/home/bicicletas.css";
@@ -14,6 +15,10 @@
 @import "/css/home/depoimento.css";
 
 @import "/css/termos/termos.css";
-@import "/css/bicicletas/bicicletas.css";
 @import "/css/seguros/seguros.css";
 @import "/css/contato/contato.css";
+
+@import "/css/bicicletas/bicicletas.css";
+@import "/css/bicicleta/bicicleta.css";
+
+@import "/css/orcamento/orcamento.css";

@@ -1,0 +1,172 @@
+.bg-orcamento {
+  background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
+}
+.l-orcamento {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.forms {
+  margin: 120px 0;
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  background: var(--cor-12);
+  border-radius: 5px;
+}
+.forms h2 {
+  color: var(--cor-5);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  grid-column: span 2;
+}
+.forms h2:before {
+  content: "";
+  position: absolute;
+  background: var(--cor-p1);
+  width: 4px;
+  height: 8px;
+  display: inline-block;
+  left: -10px;
+}
+.orcamento {
+  display: grid;
+  gap: 20px;
+  align-content: start;
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.produto-seguro {
+  margin: 40px 0;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  grid-row: 2;
+}
+.orcamento label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cor-4);
+  background-color: var(--cor-10);
+  border-radius: 4px;
+  padding: 16px 50px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+/* Customização input das opções das bicicletas e seguro */
+
+.orcamento input[type="radio"] {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+}
+.orcamento label:hover {
+  color: var(--cor-0);
+  background-color: var(--cor-9);
+  cursor: pointer;
+}
+.orcamento input[type="radio"]:checked + label {
+  color: var(--cor-11);
+  background-color: var(--cor-0);
+}
+.opcoes-produtos,
+.opcoes-produtos span,
+.opcoes-seguros,
+.opcoes-seguros span {
+  display: none;
+}
+.opcoes-produtos label,
+.opcoes-seguros label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--cor-4);
+  background-color: var(--cor-10);
+  border-radius: 4px;
+  padding: 16px;
+  cursor: pointer;
+}
+#bikcraft:checked ~ .opcoes-produtos,
+#seguro:checked ~ .opcoes-seguros {
+  display: grid;
+  grid-column: span 2;
+  gap: 20px;
+}
+
+/* Ação de click dos input das bicicletas e seguro */
+
+.cards-opcoes {
+  display: none;
+}
+#card-nimbus:checked ~ #card-nimbus,
+#card-magic:checked ~ #card-magic,
+#card-nebula:checked ~ #card-nebula {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: var(--cor-11);
+  background-color: var(--cor-0);
+  border-radius: 5px;
+}
+.orcamento input[type="radio"]:checked + label span {
+  display: block;
+}
+
+/* Customização da Ação de click das bicicletas */
+.beneficios-cards-bicicletas {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px 8px;
+}
+.beneficios-cards-bicicletas img {
+  height: 15px;
+  width: 13px;
+}
+.beneficios-cards-bicicletas li {
+  font-family: "Roboto";
+  font-size: 0.75rem;
+  color: var(--cor-8);
+}
+
+/* Decoração do formulario de solicitação de orçamento */
+
+.dados-formulario {
+  background: var(--cor-0);
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.dados-formulario div:nth-child(4),
+div:nth-child(5) {
+  grid-column: span 2;
+}
+#botao-orcamento {
+  grid-column: span 2;
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .orcamento,
+  .dados-formulario {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .forms {
+    grid-template-columns: 1fr;
+  }
+}
