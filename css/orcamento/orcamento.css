@@ -152,10 +152,6 @@
 .dados-formulario div + h2 {
   margin-top: 30px;
 }
-.dados-formulario div:nth-child(4),
-div:nth-child(5) {
-  grid-column: span 2;
-}
 #botao-orcamento {
   grid-column: span 2;
   margin-top: 20px;

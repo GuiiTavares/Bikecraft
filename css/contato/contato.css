@@ -1,19 +1,14 @@
 .contato-bg {
   background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
+  position: relative;
 }
-.l-contato {
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* container com informações de contato com o formulário */
 .card-contato {
   margin-top: 80px;
   display: grid;
   grid-template-columns: 5fr 7fr;
 }
+/* Grid com informações de contato*/
 .informacoes-contato {
   background: var(--cor-12);
   color: var(--cor-4);
@@ -62,6 +57,7 @@
   margin-left: 32px;
 }
 
+/* Grid com o formulário */
 .forms-contato {
   background: var(--cor-0);
   color: var(--cor-11);
@@ -74,41 +70,13 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
-.form label {
-  display: block;
-  font-size: 500;
-  margin-bottom: 4px;
-  font-size: 1rem;
-}
-.form input[type="text"],
-.form input[type="email"],
-.form textarea {
-  font-family: "Roboto";
-  font-size: 1rem;
-  color: var(--cor-7);
-
-  border: 1px solid var(--cor-2);
-  border-radius: 5px;
-  background: var(--cor-1);
-
-  padding: 12px;
-  width: 100%;
-  box-sizing: border-box;
-}
-.form input[type="text"]:focus,
-.form input[type="email"]:focus,
-.form textarea:focus {
-  outline: none;
-  border-color: var(--cor-7);
-}
-.coluna-forms {
-  grid-column: span 2;
-}
 .btn-contato {
   margin-top: 32px;
   margin-bottom: 8px;
+  grid-column: span 2;
 }
 
+/* container com a localização das lojas */
 .bg-contato-loja {
   background: var(--cor-1);
 }
@@ -152,7 +120,6 @@
   color: var(--cor-8);
   padding-left: 20px;
 }
-
 .cards-contato-loja a:hover {
   color: var(--cor-12);
 }
@@ -178,6 +145,12 @@
 }
 
 @media (max-width: 800px) {
+  .contato-bg {
+    background: linear-gradient(var(--cor-11) 500px, var(--cor-1) 0px);
+  }
+  .contato-bg::before {
+    background: none;
+  }
   .contato-loja {
     padding-bottom: 60px;
   }

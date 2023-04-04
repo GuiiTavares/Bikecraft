@@ -7,7 +7,7 @@
   background: var(--cor-11);
 }
 .planos-segudoros {
-  margin-top: 60px;
+  margin: 60px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -149,6 +149,9 @@
 @media (max-width: 800px) {
   #seguro-home {
     padding: 60px 0;
+  }
+  .l-seguros-bg {
+    background: var(--cor-11);
   }
   .planos-segudoros {
     grid-template-columns: 1fr;

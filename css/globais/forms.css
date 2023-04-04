@@ -5,6 +5,7 @@
   font-size: 1rem;
   color: var(--cor-11);
 }
+
 .caixa-forms input[type="text"],
 .caixa-forms input[type="email"],
 .caixa-forms textarea,
@@ -21,9 +22,14 @@ select {
   width: 100%;
   box-sizing: border-box;
 }
+
 .form input[type="text"]:focus,
 .form input[type="email"]:focus,
 .form textarea:focus {
   outline: none;
   border-color: var(--cor-7);
+}
+
+.span-cpf-email{
+  grid-column: span 2;
 }
