@@ -1,15 +1,9 @@
 .l-bicicletas {
-  margin-top: 80px;
+  margin-top: 120px;
   margin-bottom: 120px;
 }
-.titulo-bicicletas {
-  box-sizing: border-box;
-  padding-left: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-  max-width: 1200px;
-}
+
+/* Customização do container das bicicletas */
 .lista-bicicletas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -20,6 +14,8 @@
   padding: 0 20px;
   overflow-x: auto;
 }
+
+/* Customização do card das bicicletas */
 .card-bicicletas:hover {
   padding: 10px;
   background-color: var(--cor-2);

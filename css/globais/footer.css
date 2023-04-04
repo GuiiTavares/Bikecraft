@@ -1,9 +1,11 @@
 .l-footer-bg {
   background: var(--cor-12);
 }
+/* Customização dos grid do footer */
 .l-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
   justify-content: space-around;
   color: white;
 
@@ -32,6 +34,9 @@
 }
 .l-footer a {
   color: var(--cor-5);
+}
+.l-footer a:hover {
+  color: var(--cor-0);
 }
 .lista-contato li:nth-child(even) {
   padding-bottom: 32px;

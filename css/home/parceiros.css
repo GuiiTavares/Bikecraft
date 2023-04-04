@@ -5,12 +5,16 @@
 .l-parceiros img {
   margin: auto;
 }
+
+/* Customização do grid pai do container de parceiros. */
 .titulo-parceiros {
   box-sizing: border-box;
   padding-left: 20px;
   margin: 0 auto;
   max-width: 1200px;
 }
+
+/* Customização do grid filho do container de parceiros. */
 .lista-parceiros {
   max-width: 1400px;
   margin-left: auto;
@@ -33,6 +37,7 @@
 .l-parceiros li:nth-child(n + 5) {
   border-bottom: none;
 }
+
 @media (max-width: 800px) {
   .l-parceiros {
     margin-top: 20px;

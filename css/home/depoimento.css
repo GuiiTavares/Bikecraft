@@ -1,8 +1,9 @@
 .l-depoimento {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
-  background-color: var(--cor-p1);
+
+  background: var(--cor-p1) url(/img/dec/bottom-right-p.svg) no-repeat bottom
+    60px right 60px;
 }
 .l-depoimento img {
   height: 100%;
@@ -10,7 +11,7 @@
   width: 100%;
 }
 .textos-depoimento {
-  padding: 40px 40px 80px 80px;
+  padding: 60px 40px 80px 80px;
   align-items: flex-end;
   align-self: flex-end;
   box-sizing: border-box;
@@ -46,9 +47,14 @@
   font-size: 1.4rem;
   color: var(--cor-p4);
 }
+
 @media (max-width: 1200px) {
+  .l-depoimento {
+    background: var(--cor-p1);
+  }
+
   .textos-depoimento {
-    padding: 20px 60px;
+    padding: 40px 60px;
   }
   .nome-depoimento {
     font-size: 1.2rem;

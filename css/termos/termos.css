@@ -1,36 +1,13 @@
+/* Cores Backgrounds */
 .l-termos {
   background: var(--cor-1);
 }
 .cabecalho-bg {
   background: var(--cor-11);
 }
-.termos-cabecalho {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-  padding: 20px;
-}
-.termos-cabecalho p {
-  padding-top: 20px;
-  padding-bottom: 12px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  color: var(--cor-5);
-}
-.termos-cabecalho h2 {
-  padding-bottom: 20px;
-}
-.textos-termos {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-  padding: 20px;
-}
+
+/* Estilização */
+
 .textos-termos h3:first-child {
   padding-top: 120px;
   padding-bottom: 20px;
@@ -59,9 +36,6 @@
   }
 }
 @media (max-width: 800px) {
-  .termos-cabecalho p {
-    font-size: 1rem;
-  }
   .textos-termos h3:first-child {
     padding-top: 60px;
     padding-bottom: 20px;

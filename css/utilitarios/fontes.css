@@ -9,6 +9,19 @@
   font-size: 4rem;
   color: var(--cor-11);
 }
+
+/* Texto que vem acima do título de algumas páginas */
+.subtitulo-head {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: var(--cor-5);
+}
+
 @media (max-width: 1200px) {
   .titulo-bg1 {
     font-size: 3.2rem;
@@ -17,11 +30,16 @@
     font-size: 3.2rem;
   }
 }
+@media (max-width: 800px) {
+  .subtitulo-head {
+    font-size: 1rem;
+  }
+}
 @media (max-width: 500px) {
   .titulo-bg1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .titulo-bg2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }

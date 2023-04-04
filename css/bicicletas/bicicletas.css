@@ -1,6 +1,9 @@
+/* background do card da bicicleta */
 .cards-bicicletas:nth-child(odd) {
   background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
 }
+
+/* estilização de cada card */
 .cards-bicicletas {
   box-sizing: border-box;
   max-width: 1200px;
@@ -13,6 +16,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+
+  background: url(/img/dec/top-right.svg) no-repeat top 60px right 10px;
 }
 .cards-bicicletas-imagem {
   display: grid;
@@ -36,6 +41,7 @@
   place-self: start end;
 }
 
+/* Estilização de cada contéudo de background branco */
 .textos-card-bicicletas,
 .textos-cards-odd-bicicleta {
   display: flex;
@@ -84,6 +90,7 @@
   color: var(--cor-8);
 }
 
+/* Estilização de cada contéudo background preto */
 .titulos-cards-odd-bicicleta {
   grid-row: 2;
   font-weight: 600;
@@ -133,6 +140,8 @@
     padding: 60px 20px;
     gap: 20px;
     grid-template-columns: 1fr;
+
+    background: var(--cor-0);
   }
   .cards-bicicletas:nth-child(odd) {
     background: var(--cor-11);

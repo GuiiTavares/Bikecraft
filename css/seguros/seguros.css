@@ -1,28 +1,20 @@
+/* Seguro da home */
+#seguro-home {
+  padding: 120px 0;
+}
+/* Página do seguro */
 .l-seguros-bg {
   background: var(--cor-11);
-  padding-bottom: 120px;
-}
-.l-seguros {
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.titulo-seguros {
-  padding-top: 60px;
-  font-weight: 600;
 }
 .planos-segudoros {
   margin-top: 60px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
 }
 
+/* Estilo do card de seguro 1 (prata) */
 .card-plano1 {
   background: var(--cor-12);
   border-radius: 5px;
@@ -81,6 +73,8 @@
   display: inline-block;
   background-image: url(../../img/icones/lista.svg);
 }
+
+/* Estilo do card de seguro 1 (Ouro) */
 
 .card-plano2 {
   background: var(--cor-12);
@@ -141,94 +135,6 @@
   background-image: url(../../img/icones/lista.svg);
 }
 
-#vantagem-bg {
-  background: var(--cor-12);
-}
-.l-vantagens {
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.title-vantagens {
-  padding-top: 80px;
-}
-.vantagens {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-
-  gap: 20px 40px;
-  padding: 80px 0;
-}
-.card-vantagens {
-  padding: 10px;
-}
-.card-vantagens h2 {
-  color: var(--cor-0);
-  margin-top: 8px;
-  font-size: 1.5rem;
-}
-.card-vantagens p {
-  color: var(--cor-6);
-  margin-top: 8px;
-  font-size: 1.125rem;
-}
-.faq {
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding: 0 20px 120px 20px;
-  margin-left: auto;
-  margin-right: auto;
-
-  position: relative;
-}
-.faq h1 {
-  padding: 80px 0;
-}
-.cards-faq {
-  padding: 16px 16px 24px 24px;
-  margin-top: 20px;
-}
-.cards-faq:nth-child(even) {
-  background: var(--cor-1);
-  border-radius: 5px;
-}
-.cards-faq dt {
-  font-size: 1.125rem;
-  color: var(--cor-11);
-  font-style: normal;
-  font-weight: 600;
-  cursor: pointer;
-  display: grid;
-  gap: 8px;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-}
-.cards-faq dt::before {
-  display: inline-block;
-  content: "";
-  width: 12px;
-  height: 8px;
-  background: var(--cor-p1);
-}
-.cards-faq dt::after {
-  content: "";
-  display: inline-block;
-  width: 14px;
-  height: 6px;
-  background-image: url(../../img/icones/seta-abrir.svg);
-}
-.cards-faq dd {
-  margin-left: 22px;
-  margin-top: 8px;
-  font-family: "Roboto";
-  font-size: 1.125rem;
-  line-height: 24px;
-}
-
-
 @media (max-width: 1200px) {
   .planos-segudoros {
     gap: 20px;
@@ -239,21 +145,13 @@
   .card-plano2 {
     padding-left: 32px;
   }
-  .vantagens {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 @media (max-width: 800px) {
+  #seguro-home {
+    padding: 60px 0;
+  }
   .planos-segudoros {
     grid-template-columns: 1fr;
-  }
-  .vantagens {
-    gap: 20px 20px;
-
-    grid-template-columns: 1fr;
-  }
-  .faq h1 {
-    padding: 40px 0;
   }
 }
 @media (max-width: 400px) {

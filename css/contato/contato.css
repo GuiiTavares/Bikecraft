@@ -1,9 +1,6 @@
 .contato-bg {
   background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
 }
-.titulo-contato {
-  padding-top: 60px;
-}
 .l-contato {
   box-sizing: border-box;
   max-width: 1200px;

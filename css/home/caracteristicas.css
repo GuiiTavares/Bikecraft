@@ -6,13 +6,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
+
+/* Estilização do grid 1 / dos textos */
 .textos-caracteristicas {
   padding-bottom: 80px;
   align-self: end;
@@ -33,6 +29,8 @@
   color: var(--cor-5);
   margin: 32px 0;
 }
+
+/* Botão para a página de bicicletas */
 .l-caracteristicas a {
   font-weight: 600;
   font-size: 1.5rem;
@@ -54,6 +52,8 @@
 .l-caracteristicas a:hover {
   color: var(--cor-0);
 }
+
+/* Estilização das duas caracteristicas */
 .img-caracteristicas {
   height: 100%;
   object-fit: cover;
@@ -80,6 +80,7 @@
   line-height: 24px;
   color: var(--cor-5);
 }
+
 @media (max-width: 1200px) {
   .introducao-caracteristicas {
     font-size: 1.3rem;

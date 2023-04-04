@@ -15,7 +15,14 @@
 @import "/css/home/depoimento.css";
 
 @import "/css/termos/termos.css";
+
+/*---------------------------------- Aba de seguros ----------------------------------*/
+
 @import "/css/seguros/seguros.css";
+@import "/css/seguros/vantagens.css";
+@import "/css/seguros/faq.css";
+
+/*---------------------------------- Aba de seguros ----------------------------------*/
 @import "/css/contato/contato.css";
 
 @import "/css/bicicletas/bicicletas.css";
