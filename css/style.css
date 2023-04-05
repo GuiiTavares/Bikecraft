@@ -4,13 +4,13 @@
 @import "css/utilitarios/cores.css";
 @import "css/utilitarios/utilitarios.css";
 
-@import "css/globais/header.css";
-@import "css/globais/footer.css";
+@import "./css/globais/header.css";
+@import "./css/globais/footer.css";
 @import "css/globais/forms.css";
 
 /*---------------------------------- Aba da home ----------------------------------*/
-@import "css/home/introducao.css";
-@import "css/home/bicicletas.css";
+@import "./css/home/introducao.css";
+@import "/css/home/bicicletas.css";
 @import "css/home/caracteristicas.css";
 @import "css/home/parceiros.css";
 @import "css/home/depoimento.css";
