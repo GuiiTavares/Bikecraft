@@ -1,15 +1,15 @@
-@import "css/globais/globais.css";
-@import "css/utilitarios/fontes.css";
+@import "globais/globais.css";
+@import "utilitarios/fontes.css";
 
-@import "css/utilitarios/cores.css";
-@import "css/utilitarios/utilitarios.css";
+@import "utilitarios/cores.css";
+@import "utilitarios/utilitarios.css";
 
-@import "./css/globais/header.css";
-@import "./css/globais/footer.css";
-@import "css/globais/forms.css";
+@import "css/globais/header.css";
+@import "css/globais/footer.css";
+@import "globais/forms.css";
 
 /*---------------------------------- Aba da home ----------------------------------*/
-@import "./css/home/introducao.css";
+@import "css/home/introducao.css";
 @import "/css/home/bicicletas.css";
 @import "css/home/caracteristicas.css";
 @import "css/home/parceiros.css";
