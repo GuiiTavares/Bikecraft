@@ -1,33 +1,34 @@
-@import "globais/globais.css";
-
+/* -----Aba de utilitarios -----*/
 @import "utilitarios/fontes.css";
 @import "utilitarios/cores.css";
 @import "utilitarios/utilitarios.css";
 
+/* -----Aba de globais -----*/
+@import "globais/globais.css";
 @import "globais/header.css";
 @import "globais/footer.css";
 @import "globais/forms.css";
 
-/*---------------------------------- Aba da home ----------------------------------*/
+/* -----Aba da home -----*/
 @import "home/introducao.css";
 @import "home/bicicletas.css";
 @import "home/caracteristicas.css";
 @import "home/parceiros.css";
 @import "home/depoimento.css";
 
+/* -----Aba de termos -----*/
 @import "termos/termos.css";
 
-/*---------------------------------- Aba de seguros ----------------------------------*/
-
+/* -----Aba de seguros -----*/
 @import "seguros/seguros.css";
 @import "seguros/vantagens.css";
 @import "seguros/faq.css";
 
-/*---------------------------------- Aba de contato ----------------------------------*/
+/* ----- Aba de contato -----*/
 @import "contato/contato.css";
 
-/*---------------------------------- Aba de bibicletas ---------------------------------*/
-@import "css/bicicletas/bicicletas.css";
-@import "css/bicicleta/bicicleta.css";
+/*-----Aba de bibicletas-----*/
+@import "bicicletas/bicicletas.css";
+@import "bicicleta/bicicleta.css";
 
-@import "/css/orcamento/orcamento.css";
+@import "orcamento/orcamento.css";
