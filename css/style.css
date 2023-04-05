@@ -8,6 +8,7 @@
 @import "/css/globais/footer.css";
 @import "/css/globais/forms.css";
 
+/*---------------------------------- Aba da home ----------------------------------*/
 @import "/css/home/introducao.css";
 @import "/css/home/bicicletas.css";
 @import "/css/home/caracteristicas.css";
@@ -22,9 +23,10 @@
 @import "/css/seguros/vantagens.css";
 @import "/css/seguros/faq.css";
 
-/*---------------------------------- Aba de seguros ----------------------------------*/
+/*---------------------------------- Aba de contato ----------------------------------*/
 @import "/css/contato/contato.css";
 
+/*---------------------------------- Aba de bibicletas ---------------------------------*/
 @import "/css/bicicletas/bicicletas.css";
 @import "/css/bicicleta/bicicleta.css";
 
