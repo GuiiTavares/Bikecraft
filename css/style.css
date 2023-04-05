@@ -1,33 +1,33 @@
-@import "/css/globais/globais.css";
-@import "/css/utilitarios/fontes.css";
+@import "css/globais/globais.css";
+@import "css/utilitarios/fontes.css";
 
-@import "/css/utilitarios/cores.css";
-@import "/css/utilitarios/utilitarios.css";
+@import "css/utilitarios/cores.css";
+@import "css/utilitarios/utilitarios.css";
 
-@import "/css/globais/header.css";
-@import "/css/globais/footer.css";
-@import "/css/globais/forms.css";
+@import "css/globais/header.css";
+@import "css/globais/footer.css";
+@import "css/globais/forms.css";
 
 /*---------------------------------- Aba da home ----------------------------------*/
-@import "/css/home/introducao.css";
-@import "/css/home/bicicletas.css";
-@import "/css/home/caracteristicas.css";
-@import "/css/home/parceiros.css";
-@import "/css/home/depoimento.css";
+@import "css/home/introducao.css";
+@import "css/home/bicicletas.css";
+@import "css/home/caracteristicas.css";
+@import "css/home/parceiros.css";
+@import "css/home/depoimento.css";
 
-@import "/css/termos/termos.css";
+@import "css/termos/termos.css";
 
 /*---------------------------------- Aba de seguros ----------------------------------*/
 
-@import "/css/seguros/seguros.css";
-@import "/css/seguros/vantagens.css";
-@import "/css/seguros/faq.css";
+@import "css/seguros/seguros.css";
+@import "css/seguros/vantagens.css";
+@import "css/seguros/faq.css";
 
 /*---------------------------------- Aba de contato ----------------------------------*/
-@import "/css/contato/contato.css";
+@import "css/contato/contato.css";
 
 /*---------------------------------- Aba de bibicletas ---------------------------------*/
-@import "/css/bicicletas/bicicletas.css";
-@import "/css/bicicleta/bicicleta.css";
+@import "css/bicicletas/bicicletas.css";
+@import "css/bicicleta/bicicleta.css";
 
 @import "/css/orcamento/orcamento.css";
