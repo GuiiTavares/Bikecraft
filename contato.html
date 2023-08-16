@@ -50,7 +50,7 @@
           <h1 class="titulo-bg1">nosso contato <span class="span">.</span></h1>
         </div>
 
-        <div aria-label="Endereço" class="card-contato">
+        <div aria-label="Endereço" class="card-contato" id="t">
 
           <section class="informacoes-contato">
             <h2>Loja Online</h2>
@@ -73,7 +73,7 @@
 
           <section class="forms-contato">
 
-            <form action="./contato.html" class="form caixa-forms name-label">
+            <form action="" class="form caixa-forms name-label" method="post">
               <div>
                 <label for="Nome">Nome</label>
                 <input type="text" id="nome" name="nome">
@@ -85,13 +85,13 @@
               </div>
 
               <div class="span-cpf-email">
-                <label for="cpf">CPF</label>
-                <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="contato@email.com" required>
               </div>
 
-              <div class="span-cpf-email">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="contato@email.com">
+              <div class="span-msg">
+                <label for="msg">Mensagem</label>
+                <textarea name="msg" id="" cols="10" rows="6"></textarea>
               </div>
 
 
@@ -202,6 +202,10 @@
     </div>
 
   </footer>
+
+  <script src="./js/formulario.js"></script>
+  <script src="./js/script.js"></script>
+
 </body>
 
 </html>

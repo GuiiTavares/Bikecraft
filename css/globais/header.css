@@ -30,7 +30,8 @@
   transform: scaleX(0);
   transition: transform 0.25s;
 }
-.navbar a:hover::after {
+.navbar a:hover::after,
+.navbar a.ativo::after {
   transform: scaleX(1);
 }
 

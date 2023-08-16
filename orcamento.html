@@ -50,7 +50,7 @@
 
 
 
-      <form action="./" class="forms">
+      <form action="" class="forms">
 
         <div class="orcamento">
 
@@ -104,7 +104,7 @@
 
 
             <input type="radio" id="card-nebula" value="nebula" name="cards-opcoes">
-            <label for="card-nebula">Nebuma Cosmic <span>R$2999</span></label>
+            <label for="card-nebula">Nebula Cosmic <span>R$2999</span></label>
             <div class="cards-opcoes" id="card-nebula">
               <ul class="beneficios-cards-bicicletas">
                 <img src="./img/icones/eletrica.svg" alt="">
@@ -122,16 +122,18 @@
           </div>
 
           <div class="opcoes-seguros" id="opcoes-seguros">
-            <input type="radio" id="seguro-prata" value="seguro-prata" name="seguros">
-            <label for="seguro-prata">Prata <span>R$199</span></label>
+
+            <input type="radio" id="prata" value="prata" name="seguros">
+            <label for="prata">Prata <span>R$199</span></label>
+
             <div class="cards-opcoes" id="card-nimbus">
               <p>1325</p>
             </div>
           </div>
 
           <div class="opcoes-seguros" id="opcoes-seguros">
-            <input type="radio" id="seguro-ouro" value="seguro-ouro" name="seguros">
-            <label for="seguro-ouro">Ouro <span>R$299</span></label>
+            <input type="radio" id="ouro" value="ouro" name="seguros">
+            <label for="ouro">Ouro <span>R$299</span></label>
             <div class="cards-opcoes" id="card-nimbus">
               <p>1325</p>
             </div>
@@ -164,7 +166,7 @@
 
           <div class="span-cpf-email">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="contato@email.com">
+            <input type="email" name="email" id="email" placeholder="contato@email.com" required>
           </div>
 
           <h2>entrega</h2>
@@ -285,6 +287,12 @@
     </div>
 
   </footer>
+  
+  <script src="./js/budgetPath.js"></script>
+
+  <script src="./js/formulario.js"></script>
+  <script src="./js/script.js"></script>
+
 </body>
 
 </html>

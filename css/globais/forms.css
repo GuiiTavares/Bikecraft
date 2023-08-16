@@ -30,6 +30,11 @@ select {
   border-color: var(--cor-7);
 }
 
-.span-cpf-email{
+.span-cpf-email,
+.span-msg {
   grid-column: span 2;
+}
+
+#aq {
+  display: none;
 }
